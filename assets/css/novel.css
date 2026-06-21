@@ -722,3 +722,68 @@ article {
 @media (max-width: 640px) {
   .bottom-product-url { padding: 8px 20px 14px; }
 }
+
+/* ════════════════════════════════════════════
+   MOBILE FIXES — layout improvements
+════════════════════════════════════════════ */
+@media (max-width: 640px) {
+
+  /* Hide long excerpt on mobile — description section below is enough */
+  .book-excerpt { display: none; }
+
+  /* Tighter info column padding */
+  .novel-info { padding: 16px 16px 12px; gap: 10px; }
+
+  /* Slightly smaller title */
+  .book-title { font-size: 1.3rem; }
+
+  /* Genre pill smaller */
+  .genre-pill { font-size: 0.72rem; padding: 3px 11px; }
+
+  /* Compact wyg-box */
+  .wyg-box { padding: 12px 14px; }
+  .wyg-item { font-size: 0.82rem; }
+
+  /* Breadcrumb: truncate long titles */
+  .breadcrumb { font-size: 0.72rem; line-height: 1.5; }
+  .breadcrumb span[aria-current] {
+    display: inline-block;
+    max-width: 160px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+  }
+
+  /* Cover section height more compact */
+  .cover-col { padding: 20px 16px 0; }
+  .cover-img { max-width: 140px; }
+
+  /* Format tag below cover */
+  .format-tag { font-size: 0.7rem; padding: 4px 12px; }
+
+  /* Description section */
+  .description-section h2 { font-size: 1.05rem; }
+  .description-text { font-size: 0.93rem; }
+
+  /* Bottom CTA */
+  .bottom-cta { padding: 16px; }
+  .bottom-cta-text strong { font-size: 0.9rem; }
+  .bottom-cta-text span   { font-size: 0.8rem; }
+  .bottom-promo { font-size: 1.2rem; }
+
+  /* Tags section */
+  .tags-section { padding: 14px 16px 16px; gap: 6px; }
+  .tag { font-size: 0.73rem; padding: 4px 11px; }
+
+  /* Product URL row */
+  .product-url-row  { padding-top: 10px; margin-top: 10px; }
+  .product-url-link { font-size: 0.75rem; }
+
+  /* Bottom product URL */
+  .bottom-product-url { padding: 6px 16px 12px; }
+  .bottom-product-url a { font-size: 0.73rem; }
+
+  /* Ensure sticky bar is above everything */
+  .mobile-bar { box-shadow: 0 -2px 16px rgba(0,0,0,0.15); }
+}
