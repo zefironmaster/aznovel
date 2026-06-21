@@ -1,0 +1,34 @@
+---
+layout: novel
+
+title: "Penguin Highway Novel - English EPUB, PDF | Japanese Light Novel"
+
+description: |
+  Penguin Highway Complete English Novels - EPUB & PDF | Japanese Light Novel
+
+genre: "Japanese Novel"
+
+cover: "https://res.cloudinary.com/driebl5st/image/upload/v1781573003/JAPAN/Penguin%20Highway/Penguin_Highway-1.jpg"
+
+file_type: "PDF & EPUB"
+
+price: "5"
+price_promo: "2.5"
+
+checkout_url: "https://payhip.com/buy?link=iFk5q"
+product_url: "https://payhip.com/b/iFk5q"
+tags:
+  - "light novel"
+  - "web novel"
+  - "books"
+  - "graphic novels"
+  - "novel"
+  - "story"
+  - "fiction"
+  - "literature"
+  - "digital"
+  - "japanese novel"
+  - "manga"
+  - "manhwa"
+  - "ebook"
+---
